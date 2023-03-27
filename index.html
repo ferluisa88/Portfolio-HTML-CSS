@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SITE</title>
+    <style type="text/css">
+      
+.bolafoto{
+
+position: absolute;
+width: 350px;
+height: 350px;
+left: 630px;
+top: -30px;
+background: linear-gradient(95.26deg, #B008BE -15.88%, #2A0537 109.91%);
+border-radius: 200px;
+
+}
+
+.bolafoto:hover{
+
+width: 400px;
+transition: 2s;
+
+}
+
+
+
+.img-container3 {
+  position: absolute;
+width: 100px;
+height: 700px;
+left: 900px;
+top: 100px;
+z-index: 4;
+}
+
+.img-container2 {
+  position: absolute;
+width: 200px;
+height: 800px;
+left: 640px;
+top: 300px;
+z-index: 4;
+
+}
+.img-container {
+position: relative;
+left: 50px;
+top: -50px;
+z-index: 4;
+
+}
+       
+button{
+ text-decoration: none;
+ position: absolute;
+ border: none;
+ font-size: 20px;
+ 
+ color: #fff;
+ width: 9em;
+ height: 3em;
+ line-height: 2em;
+ text-align: center;
+ background: linear-gradient(90deg,#f403b8,#9c07b9,#ffeb3b,#ad06a5);
+ background-size: 300%;
+ border-radius: 30px;
+ z-index: 1;
+}
+
+button:hover {
+ animation: ani 8s linear infinite;
+ border: none;
+}
+
+@keyframes ani {
+ 0% {
+  background-position: 0%;
+ }
+
+ 100% {
+  background-position: 400%;
+ }
+}
+
+button:before {
+ content: '';
+ position: absolute;
+ top: -5px;
+ left: -5px;
+ right: -5px;
+ bottom: -5px;
+ z-index: -1;
+ background: linear-gradient(90deg,#9405a1,#f441a5,#ffeb3b,#03a9f4);
+ background-size: 400%;
+ border-radius: 35px;
+ transition: 1s;
+}
+
+button:hover::before {
+ filter: blur(20px);
+}
+
+button:active {
+ background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+}
+ 
+
+#titulosobremim{
+
+position: relative;
+top: 250px;
+left: 60px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: #B008BE;
+}
+
+
+.textosobremim{
+position: relative;
+top: 400px;
+left: 60px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: #FFFFFF;
+
+}  
+
+#nome{
+    color: #B008BE;
+
+}  
+
+.title{
+            position: absolute;
+width: 745px;
+height: 203px;
+left: 70px;
+top: 200px;
+font-family:Arial, Helvetica, sans-serif;
+font-style: bold;
+font-weight: 200;
+font-size: 30px;
+line-height: 10px;
+
+color: #FFFFFF;
+
+        }
+
+
+#retangulo2 {
+
+position: absolute;
+width: 1500px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #B008BE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+         
+        }
+    
+#rodapé{
+
+position: absolute;
+width: 1440px;
+height: 180px;
+left: 0px;
+top: 927px;
+background: #B008BE;
+
+        }
+        
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="img-container"> 
+        <img src="logo.png" width="200" height="205" alt="logo">
+        
+      </div>
+      <div class="img-container2"> 
+        <img src="eu.png" width="200" height="205" alt="eu">
+      </div>
+
+      <div class="img-container3"> 
+        <img src="fe2.png" width="200" height="205" alt="eu2">
+      </div>
+
+    <body bgcolor= #130218 ></body>
+    <div id="retangulo2"></div>
+    <div id="rodapé"></div>
+    <div class="title">
+        <h3>Olá, eu sou a </h3>
+        
+        <div id="nome">
+            <h1>Fernanda Luisa</h1></div>
+
+        <h5>Web Designer - Designer Gráfico </h5>
+
+        <a href="drive.google.com/file/d/1BKjIDUraX85_nFCYq9O9vM4eXT8srkuY/view"><button> CV </button></a>
+
+
+        <div class="bolafoto"></div>
+  
+  </div>
+
+  <div class="textosobremim">
+    <h6>Formada em Publicidade e Propaganda, trabalha com design a 6 anos. 
+        <p>
+        Experiencia em design de redes sociais, branding e pretende ser Desenvolvedora Front-End.</p>
+    </p>
+    </h6>
+  </div>
+
+<div class="titulosobremim"></div>
+
+<div id="titulosobremim">
+
+  <h4>Sobre mim</h4> 
+</div>
+
+
+
+  </body>
+</html>
